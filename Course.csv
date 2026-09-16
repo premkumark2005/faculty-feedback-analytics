@@ -1,0 +1,92 @@
+C_ID,Course_Name,Regulation,Dept_ID,Type,Sem
+C001,Python Programming,R2021,D01,Lab,5
+C002,Machine Learning,R2021,D04,Theory,5
+C003,Data Visualization,R2021,D06,Lab,3
+C004,Statistics,R2021,D05,Theory,3
+C005,SQL,R2021,D08,Lab,6
+C006,Deep Learning,R2021,D04,Theory,1
+C007,Artificial Intelligence,R2021,D04,Theory,3
+C008,Data Mining,R2021,D05,Theory,6
+C009,Cloud Computing,R2021,D08,Lab,4
+C010,Natural Language Processing,R2021,D04,Theory,4
+C011,Big Data,R2021,D05,Lab,4
+C012,R Programming,R2021,D05,Lab,5
+C013,Data Structures,R2021,D01,Theory,1
+C014,Computer Vision,R2021,D04,Lab,1
+C015,Business Analytics,R2021,D05,Theory,3
+C016,Probability,R2021,D05,Theory,2
+C017,Linear Algebra,R2021,D05,Theory,2
+C018,Database Systems,R2021,D01,Theory,5
+C019,Data Warehousing,R2021,D08,Theory,4
+C020,Operating Systems,R2021,D01,Theory,2
+C021,Software Engineering,R2021,D01,Theory,4
+C022,Web Development,R2021,D06,Lab,3
+C023,Data Ethics,R2024,D05,Theory,7
+C024,Time Series,R2021,D05,Theory,5
+C025,Reinforcement Learning,R2024,D04,Theory,8
+C026,Generative AI,R2024,D04,Theory,7
+C027,Data Security,R2021,D08,Theory,1
+C028,IoT Analytics,R2024,D02,Lab,8
+C029,Distributed Systems,R2021,D01,Theory,3
+C030,Project Management,R2021,D08,Theory,4
+C031,Computer Networks,R2021,D01,Theory,5
+C032,Compiler Design,R2021,D01,Theory,6
+C033,Operating Systems Laboratory,R2021,D01,Lab,4
+C034,Theory of Computation,R2021,D01,Theory,4
+C035,Digital Electronics,R2021,D02,Theory,3
+C036,Signals and Systems,R2021,D02,Theory,3
+C037,Communication Systems,R2021,D02,Theory,5
+C038,Microprocessors and Microcontrollers,R2021,D02,Theory,4
+C039,Embedded Systems,R2021,D02,Theory,6
+C040,VLSI Design,R2021,D02,Theory,7
+C041,Digital Electronics Laboratory,R2021,D02,Lab,3
+C042,Communication Systems Laboratory,R2021,D02,Lab,5
+C043,Electrical Machines,R2021,D03,Theory,3
+C044,Power Systems,R2021,D03,Theory,5
+C045,Control Systems,R2021,D03,Theory,4
+C046,Power Electronics,R2021,D03,Theory,6
+C047,Electrical Measurements,R2021,D03,Theory,2
+C048,Renewable Energy Systems,R2021,D03,Theory,7
+C049,Electrical Machines Laboratory,R2021,D03,Lab,3
+C050,Power Systems Laboratory,R2021,D03,Lab,5
+C051,Neural Networks and Fuzzy Logic,R2021,D04,Theory,6
+C052,Machine Learning Laboratory,R2021,D04,Lab,5
+C053,Deep Learning Laboratory,R2021,D04,Lab,6
+C054,Speech Processing,R2021,D04,Theory,7
+C055,Data Science Fundamentals,R2021,D05,Theory,3
+C056,Statistical Learning,R2021,D05,Theory,5
+C057,Data Analytics Laboratory,R2021,D05,Lab,4
+C058,Big Data Analytics Laboratory,R2021,D05,Lab,6
+C059,Computer Graphics,R2021,D06,Theory,4
+C060,UI/UX Design,R2021,D06,Theory,5
+C061,Human Computer Interaction,R2021,D06,Theory,6
+C062,Design Thinking,R2021,D06,Theory,2
+C063,Game Design,R2021,D06,Theory,7
+C064,UI/UX Design Laboratory,R2021,D06,Lab,5
+C065,Engineering Mechanics,R2021,D07,Theory,1
+C066,Thermodynamics,R2021,D07,Theory,3
+C067,Fluid Mechanics and Machinery,R2021,D07,Theory,4
+C068,Manufacturing Technology,R2021,D07,Theory,5
+C069,Machine Design,R2021,D07,Theory,6
+C070,Heat and Mass Transfer,R2021,D07,Theory,7
+C071,Manufacturing Technology Laboratory,R2021,D07,Lab,5
+C072,Thermal Engineering Laboratory,R2021,D07,Lab,4
+C073,Information Security,R2021,D08,Theory,6
+C074,Web Technologies,R2021,D08,Theory,5
+C075,Software Testing,R2021,D08,Theory,7
+C076,Cloud Computing Laboratory,R2021,D08,Lab,6
+C077,Sensors and Transducers,R2021,D09,Theory,3
+C078,Industrial Instrumentation,R2021,D09,Theory,4
+C079,Process Control,R2021,D09,Theory,6
+C080,Industrial Automation,R2021,D09,Theory,7
+C081,Measurement Systems,R2021,D09,Theory,2
+C082,Instrumentation Laboratory,R2021,D09,Lab,4
+C083,Process Control Laboratory,R2021,D09,Lab,6
+C084,Engineering Graphics,R2021,D10,Theory,1
+C085,Structural Analysis,R2021,D10,Theory,4
+C086,Concrete Technology,R2021,D10,Theory,3
+C087,Geotechnical Engineering,R2021,D10,Theory,5
+C088,Transportation Engineering,R2021,D10,Theory,6
+C089,Environmental Engineering,R2021,D10,Theory,7
+C090,Surveying Laboratory,R2021,D10,Lab,2
+C091,Concrete Laboratory,R2021,D10,Lab,3

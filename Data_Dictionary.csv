@@ -1,0 +1,57 @@
+Table,Column,Data_Type,Primary_Key,Foreign_Key,Description,Source_Column,Transformation_Method,Original_or_Derived,Synthetic_or_Original
+Department,Dept_ID,Text,YES,,Department code,,Generated code,Derived,Synthetic
+Department,Dept_Name,Text,NO,,Department name,students.Department,Replaced in v2 by the 10 institutional departments (CSE..CIVIL),Derived,Synthetic
+Course,C_ID,Text,YES,,Course code (1:1 with source Subject_ID),subjects.Subject_ID,SUB001->C001 re-coding,Derived,Original
+Course,Course_Name,Text,NO,,Course title,subjects.Subject_Name,Direct copy,Original,Original
+Course,Regulation,Text,NO,,Curriculum regulation (R2021 / R2024),,Assigned: R2024 for courses introduced in 2024-25,Derived,Synthetic
+Course,Dept_ID,Text,NO,Department.Dept_ID,Offering department,subjects.Subject_Name,v2: mapped to one of the 10 departments by subject domain,Derived,Synthetic
+Course,Type,Text,NO,,Theory or Lab,subjects.Subject_Name,Rule-based classification of practical subjects,Derived,Synthetic
+Course,Sem,Integer,NO,,Semester offered,subjects.Semester,Direct copy,Original,Original
+Faculty,F_ID,Text,YES,,Faculty code,faculty.Faculty_ID,Rename,Original,Original
+Faculty,Faculty_Name,Text,NO,,Faculty name,faculty.Faculty_Name,Direct copy,Original,Original
+Faculty,Dept_ID,Text,NO,Department.Dept_ID,Department,subjects.Faculty_ID,v2: from the department of the course owned; 31 new faculty added for departments with no source staff,Derived,Synthetic
+Faculty,Role,Text,NO,,HOD / Associate Professor / Assistant Professor,faculty.Designation,Professor -> Associate Professor; most senior Professor per dept -> HOD,Derived,Partly Original
+Student,S_ID,Text,YES,,Student code,students.Student_ID,Rename (ST####); synthetic cohorts use SX####,Original,Partly Original
+Student,Name,Text,NO,,Student name,students.Name,Direct copy; synthetic students use placeholder names,Original,Partly Original
+Student,Dept_ID,Text,NO,Department.Dept_ID,Department,students.Department,v2: redistributed across the 10 departments by target share,Original,Synthetic
+Student,Batch,Text,NO,,"Cohort, e.g. 2023-26 (3-year programme)",students.Year,Rebuilt from Year (FY/SY/TY); source Batch column discarded as inconsistent,Derived,Partly Original
+FacultyFeedback,Feedback_ID,Text,YES,,Feedback record ID,feedback.Feedback_ID,Re-sequenced FB######,Derived,Original
+FacultyFeedback,Faculty_ID,Text,NO,Faculty.F_ID,Faculty rated,feedback.Faculty_ID,Re-mapped to the teacher of record for that course-year,Derived,Partly Original
+FacultyFeedback,Course_ID,Text,NO,Course.C_ID,Course rated,feedback.Subject_ID,Mapped SUB->C,Original,Original
+FacultyFeedback,Date,Date,NO,,Submission date,feedback.Date,Original dates kept; synthetic dates in end-semester windows,Original,Partly Original
+FacultyFeedback,Communication,Integer 1-5,NO,,Rating 1-5,feedback.Communication,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+FacultyFeedback,Subject_Knowledge,Integer 1-5,NO,,Rating 1-5,feedback.Teaching,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+FacultyFeedback,Interaction,Integer 1-5,NO,,Rating 1-5,feedback.Interaction,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+FacultyFeedback,Doubt_Resolution,Integer 1-5,NO,,Rating 1-5,feedback.Notes,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+FacultyFeedback,Syllabus_Completion,Integer 1-5,NO,,Rating 1-5,feedback.Overall,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+FacultyFeedback,Practical_Example,Integer 1-5,NO,,Rating 1-5,feedback.Practical,"Copied for the 5,000 original rows; modelled for synthetic rows",Original,Partly Original
+TheoryFeedback,CFB_ID,Text,YES,,Course-feedback ID,,Generated CFB######,Derived,Synthetic
+TheoryFeedback,Course_ID,Text,NO,Course.C_ID,Theory course rated,,From feedback event,Derived,Synthetic
+TheoryFeedback,Date,Date,NO,,Submission date,,From feedback event,Derived,Synthetic
+TheoryFeedback,Course_Content,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+TheoryFeedback,Practical_Learning,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+TheoryFeedback,Course_Management,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+TheoryFeedback,Course_Value,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+TheoryFeedback,Course_Difficulty,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+TheoryFeedback,Learning_Experience,Integer 1-5,NO,,Rating 1-5,,Modelled (year + course + student effects); Difficulty modelled independently of satisfaction,Derived,Synthetic
+LabFeedback,FeedbackID,Text,YES,,Lab feedback ID,,Generated LFB######,Derived,Synthetic
+LabFeedback,LabID,Text,NO,Lab.LabID,Lab rated,,From the lab attached to the course,Derived,Synthetic
+LabFeedback,SystemPerformance,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,SystemAvailability,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,InternetConnectivity,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,EquipmentAvailability,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,LabMaterialAvailability,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,StaffAvailability,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,TechnicalSupport,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,LabCleanliness,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,SeatingAndSpace,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,LabSafety,Integer 1-5,NO,,Rating 1-5,,Modelled with per-parameter offsets,Derived,Synthetic
+LabFeedback,Date,Date,NO,,Submission date,,From feedback event,Derived,Synthetic
+Lab,LabID,Text,YES,,Lab code,,Generated,Derived,Synthetic
+Lab,LabName,Text,NO,,Lab name,subjects.Subject_Name,"Course name + "" Lab""",Derived,Synthetic
+Lab,Course_ID,Text,NO,Course.C_ID,Course served by the lab,,1:1 with each Lab-type course,Derived,Synthetic
+Lab,Dept_ID,Text,NO,Department.Dept_ID,Owning department,,From the course,Derived,Synthetic
+FeedbackCompletion,S_ID,Text,YES (with Year),Student.S_ID,Student,students.Student_ID,Rename,Original,Partly Original
+FeedbackCompletion,Year,Text,YES (with S_ID),,"Academic year, e.g. 2023-24",,Derived from the academic calendar,Derived,Synthetic
+FeedbackCompletion,Completion,Boolean,NO,,TRUE if >=75% of enrolled courses were rated,,Computed from generated submissions,Derived,Synthetic
+Faculty,Specialization,Text,NO,,"Teaching specialisation, aligned to the department",subjects.Subject_Name,Owned course name for source faculty; assigned domain for new faculty,Derived,Partly Original

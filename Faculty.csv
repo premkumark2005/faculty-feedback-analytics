@@ -1,0 +1,76 @@
+F_ID,Faculty_Name,Dept_ID,Role,Specialization
+F001,Dr. Pooja Sharma,D01,HOD,Python Programming
+F002,Dr. Seema Deshmukh,D04,HOD,Machine Learning
+F003,Dr. Anjali Joshi,D06,HOD,Data Visualization
+F004,Dr. Manoj Nair,D05,HOD,Statistics
+F005,Dr. Sanjay Nair,D08,HOD,SQL
+F006,Dr. Ajay Gupta,D04,Assistant Professor,Deep Learning
+F007,Dr. Smita Mehta,D04,Assistant Professor,Artificial Intelligence
+F008,Dr. Sanjay Gupta,D05,Associate Professor,Data Mining
+F009,Dr. Aarti Mehta,D08,Associate Professor,Cloud Computing
+F010,Dr. Ajay Shah,D04,Associate Professor,Natural Language Processing
+F011,Dr. Rahul Deshmukh,D05,Associate Professor,Big Data
+F012,Dr. Ritu Yadav,D05,Associate Professor,R Programming
+F013,Dr. Nitin Mehta,D01,Associate Professor,Data Structures
+F014,Dr. Siddhesh Deshmukh,D04,Associate Professor,Computer Vision
+F015,Dr. Rahul Gupta,D05,Associate Professor,Business Analytics
+F016,Dr. Rakesh Sharma,D05,Assistant Professor,Probability
+F017,Dr. Nitin Sharma,D05,Associate Professor,Linear Algebra
+F018,Dr. Shweta Patil,D01,Associate Professor,Database Systems
+F019,Dr. Sanjay Joshi,D08,Assistant Professor,Data Warehousing
+F020,Dr. Rajesh Patil,D01,Assistant Professor,Operating Systems
+F021,Dr. Vivek Joshi,D01,Associate Professor,Software Engineering
+F022,Dr. Anil Yadav,D06,Assistant Professor,Web Development
+F023,Dr. Amit Mehta,D05,Associate Professor,Data Ethics
+F024,Dr. Rahul Patil,D05,Associate Professor,Time Series
+F025,Dr. Suresh Deshmukh,D04,Associate Professor,Reinforcement Learning
+F026,Dr. Anita Mehta,D04,Assistant Professor,Generative AI
+F027,Dr. Aarti Yadav,D08,Associate Professor,Data Security
+F028,Dr. Meena Mehta,D02,HOD,IoT Analytics
+F029,Dr. Neha Gupta,D01,Assistant Professor,Distributed Systems
+F030,Dr. Vivek Joshi,D08,Assistant Professor,Project Management
+F031,Dr. Nitin Gupta,D01,Associate Professor,General
+F032,Dr. Varad Sharma,D04,Associate Professor,General
+F033,Dr. Komal Yadav,D05,Associate Professor,General
+F034,Dr. Deepa Gupta,D06,Assistant Professor,General
+F035,Dr. Alok Joshi,D08,Assistant Professor,General
+F036,Dr. Kiran Patil,D01,Assistant Professor,General
+F037,Dr. Neha Gupta,D04,Associate Professor,General
+F038,Dr. Manoj Shah,D05,Assistant Professor,General
+F039,Dr. Priyanka Patil,D06,Associate Professor,General
+F040,Dr. Anjali Joshi,D08,Assistant Professor,General
+F041,Dr. R. Karthikeyan,D02,Associate Professor,Communication Systems
+F042,Dr. S. Meenakshi,D02,Assistant Professor,VLSI Design
+F043,Dr. A. Vignesh,D02,Assistant Professor,Embedded Systems
+F044,Dr. P. Lavanya,D02,Associate Professor,Signal Processing
+F045,Dr. K. Sundaram,D02,Assistant Professor,Digital Electronics
+F046,Prof. N. Divya,D02,Assistant Professor,Microelectronics
+F047,Dr. M. Balaji,D03,HOD,Power Systems
+F048,Dr. T. Revathi,D03,Assistant Professor,Electrical Machines
+F049,Dr. G. Prakash,D03,Assistant Professor,Control Systems
+F050,Dr. S. Anitha,D03,Associate Professor,Power Electronics
+F051,Dr. V. Manikandan,D03,Assistant Professor,Renewable Energy
+F052,Prof. J. Kavitha,D03,Assistant Professor,High Voltage Engineering
+F053,Dr. R. Senthilkumar,D07,HOD,Thermodynamics
+F054,Dr. P. Arunachalam,D07,Assistant Professor,Manufacturing
+F055,Dr. S. Gopinath,D07,Assistant Professor,Machine Design
+F056,Dr. B. Rajesh,D07,Associate Professor,Fluid Mechanics
+F057,Dr. M. Saravanan,D07,Assistant Professor,Heat Transfer
+F058,Prof. L. Hemalatha,D07,Assistant Professor,Industrial Engineering
+F059,Dr. K. Nandhini,D09,HOD,Industrial Instrumentation
+F060,Dr. S. Vijayakumar,D09,Assistant Professor,Process Control
+F061,Dr. R. Bhuvaneswari,D09,Assistant Professor,Sensors and Transducers
+F062,Dr. A. Muralidharan,D09,Associate Professor,Industrial Automation
+F063,Prof. D. Suganya,D09,Assistant Professor,Biomedical Instrumentation
+F064,Dr. T. Ramamurthy,D10,HOD,Structural Engineering
+F065,Dr. S. Kalaiselvi,D10,Assistant Professor,Geotechnical Engineering
+F066,Dr. P. Dhanasekaran,D10,Assistant Professor,Transportation Engineering
+F067,Dr. N. Yamuna,D10,Associate Professor,Environmental Engineering
+F068,Prof. R. Sathishkumar,D10,Assistant Professor,Construction Management
+F069,Dr. V. Aishwarya,D06,Associate Professor,Computer Graphics
+F070,Dr. S. Naveenkumar,D06,Assistant Professor,HCI
+F071,Prof. M. Priyadharshini,D06,Assistant Professor,UI/UX Design
+F072,Dr. A. Ramkumar,D01,Associate Professor,Computer Networks
+F073,Prof. S. Deepika,D01,Assistant Professor,Compiler Design
+F074,Dr. G. Subashini,D08,Associate Professor,Information Security
+F075,Prof. K. Yuvaraj,D08,Assistant Professor,Web Technologies

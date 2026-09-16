@@ -1,0 +1,27 @@
+LabID,LabName,Course_ID,Dept_ID
+L001,Python Programming Lab,C001,D01
+L002,Data Visualization Lab,C003,D06
+L003,SQL Lab,C005,D08
+L004,Cloud Computing Lab,C009,D08
+L005,Big Data Lab,C011,D05
+L006,R Programming Lab,C012,D05
+L007,Computer Vision Lab,C014,D04
+L008,Web Development Lab,C022,D06
+L009,IoT Analytics Lab,C028,D02
+L010,Operating Systems Laboratory,C033,D01
+L011,Digital Electronics Laboratory,C041,D02
+L012,Communication Systems Laboratory,C042,D02
+L013,Electrical Machines Laboratory,C049,D03
+L014,Power Systems Laboratory,C050,D03
+L015,Machine Learning Laboratory,C052,D04
+L016,Deep Learning Laboratory,C053,D04
+L017,Data Analytics Laboratory,C057,D05
+L018,Big Data Analytics Laboratory,C058,D05
+L019,UI/UX Design Laboratory,C064,D06
+L020,Manufacturing Technology Laboratory,C071,D07
+L021,Thermal Engineering Laboratory,C072,D07
+L022,Cloud Computing Laboratory,C076,D08
+L023,Instrumentation Laboratory,C082,D09
+L024,Process Control Laboratory,C083,D09
+L025,Surveying Laboratory,C090,D10
+L026,Concrete Laboratory,C091,D10
